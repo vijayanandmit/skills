@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portfolio Risk Review"
+  short_description: "Review allocation and concentration risk"
+  default_prompt: "Use $portfolio-risk-review to assess this portfolio's allocation, concentration, overlap, drawdown risk, and rebalancing actions."

@@ -1,0 +1,19 @@
+{
+  "name": "market-skills",
+  "version": "1.0.0",
+  "description": "Finance and investing skills for Claude Code: stock analysis, ETFs, earnings, options, portfolios, news catalysts, and sector rotation.",
+  "author": {
+    "name": "Vijay Anand"
+  },
+  "homepage": "https://github.com/vijayanandmit/skills",
+  "repository": "https://github.com/vijayanandmit/skills",
+  "license": "MIT",
+  "keywords": [
+    "finance",
+    "investing",
+    "stocks",
+    "etfs",
+    "options",
+    "market-analysis"
+  ]
+}

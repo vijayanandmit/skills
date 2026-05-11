@@ -1,0 +1,4 @@
+interface:
+  display_name: "Earnings Call Analyst"
+  short_description: "Earnings, guidance, and call readouts"
+  default_prompt: "Use $earnings-call-analyst to analyze the latest earnings call, guidance, management tone, stock reaction, and trade action."

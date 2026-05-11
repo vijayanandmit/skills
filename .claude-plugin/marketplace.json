@@ -1,0 +1,18 @@
+{
+  "name": "vijay-skills",
+  "metadata": {
+    "description": "Finance and investing skills for Claude Code.",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "Vijay Anand"
+  },
+  "plugins": [
+    {
+      "name": "market-skills",
+      "source": "./plugins/market-skills",
+      "description": "Stock, ETF, earnings, options, portfolio, news, and sector analysis skills.",
+      "version": "1.0.0"
+    }
+  ]
+}

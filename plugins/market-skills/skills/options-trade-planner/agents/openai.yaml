@@ -1,0 +1,4 @@
+interface:
+  display_name: "Options Trade Planner"
+  short_description: "Plan defined-risk options trades"
+  default_prompt: "Use $options-trade-planner to build a defined-risk options trade with strikes, expiration, risk/reward, Greeks, and exit rules."

@@ -1,6 +1,11 @@
 # Skills
 
-Reusable Codex skills for finance, investing, research, and decision support.
+Reusable skills for finance, investing, research, and decision support.
+
+This repository supports two layouts:
+
+- Codex-compatible standalone skill folders at the repo root.
+- Claude Code marketplace plugin package under `plugins/market-skills/`.
 
 ## Available Skills
 
@@ -16,7 +21,7 @@ Reusable Codex skills for finance, investing, research, and decision support.
 
 Each skill lives in its own folder with a required `SKILL.md` and optional `agents/openai.yaml` metadata.
 
-## Layout
+## Codex Layout
 
 ```text
 skill-name/
@@ -25,6 +30,46 @@ skill-name/
     openai.yaml
 ```
 
-## Usage
+## Claude Code Layout
+
+```text
+.claude-plugin/
+  marketplace.json
+plugins/
+  market-skills/
+    .claude-plugin/
+      plugin.json
+    skills/
+      skill-name/
+        SKILL.md
+```
+
+## Codex Usage
 
 Install or copy the individual skill folders you want to use. Skills are intentionally independent, so consumers can take one skill without pulling the full collection.
+
+## Claude Code Usage
+
+Add this repository as a Claude Code plugin marketplace:
+
+```text
+/plugin marketplace add vijayanandmit/skills
+```
+
+Then install the plugin:
+
+```text
+/plugin install market-skills@vijay-skills
+```
+
+After install, restart Claude Code or run:
+
+```text
+/reload-plugins
+```
+
+Plugin skills are namespaced. Example:
+
+```text
+/market-skills:stock-analyst Analyze NVDA with current data, entry zone, target, stop-loss, confidence, and risk.
+```
