@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock Analyst"
+  short_description: "Market analysis with risk controls"
+  default_prompt: "Analyze a stock, ETF, sector, or market opportunity with current data, a clear action, entry zone, target, stop-loss, confidence, and risk assessment."
