@@ -1,0 +1,4 @@
+interface:
+  display_name: "ETF Comparison"
+  short_description: "Compare ETF exposure, fees, and fit"
+  default_prompt: "Use $etf-comparison to compare these ETFs by holdings, fee, liquidity, tax fit, risk, and portfolio role."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market News Screener"
+  short_description: "Find catalysts and market-moving news"
+  default_prompt: "Use $market-news-screener to screen current market news for catalysts, affected tickers, trade setups, and risks."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sector Rotation Screener"
+  short_description: "Rank sectors by trend and opportunity"
+  default_prompt: "Use $sector-rotation-screener to rank sectors by momentum, valuation, macro drivers, leading tickers, and trade setup."
